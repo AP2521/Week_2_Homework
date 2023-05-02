@@ -27,6 +27,6 @@ Expected Output:
         System.out.println(a+" x "+b+" = "+c); }
     public static void divide(int a, int b){ int c = a/b; //divide
         System.out.println(a+" / "+b+" = "+c); }
-    public static void remainder(int a, int b){ int c = a-b-b-b-b-b; //remainder
+    public static void remainder(int a, int b){ int c = a%b; //remainder
         System.out.println(a+" mod "+b+" = "+c); }
 }
